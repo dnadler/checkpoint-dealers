@@ -1,0 +1,140 @@
+<style>
+      #dataGrid {
+        margin-top: 20px;  
+      }
+      .dataRow { 
+        color: #000000;
+        margin: 5px;
+        cursor: pointer;
+      }
+      #state {
+        margin-top: 5px;
+      }
+      .dataRow:hover {
+        background: #87C3FE;
+      }
+      .noPrint {
+        display:none;
+      }
+      .displayContainer {
+	color: #000000;
+	margin-top: 20px;
+	background-color: #cccccc;
+	font-family: Verdana;
+	font-size: 12pt;
+	margin-bottom: 20px;
+	display: inline-block;
+	min-width: 450px;
+	min-height: 300px;
+	background-image: url(../Graphics/furley_bg.png);
+	background-repeat: repeat;
+	box-shadow: 8px 8px 10px #bbbbbb;        
+      }
+      .nameDiv {
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-left: 30px;
+        float: left;
+        clear: both;
+        display: inline-block;
+      }
+      .facilityDiv, .addressLine1Div, .addressLine2Div, .addressLine3Div, .phoneFaxDiv, .emailDiv, .centerDiv, .countryDiv, .websiteDiv {
+        padding-right: 30px;
+        padding-left: 30px;
+        float: left;
+        clear: both;
+        display: inline-block;
+      }
+      .labelAddress1 {
+        width: 80px;
+        display: inline-block;
+        padding-top: 5px;
+      }
+      .labelCSZ, .labelAddress2 {
+        width: 80px;
+        display: inline-block;
+      }
+      .labelCountry {
+        width: 80px;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      .labelName, .labelFacility, .labelPhone, .labelEmail, .labelCenter, .labelWebsite {
+        width: 80px;
+        display: inline-block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      
+      .labelFax {
+        width: 55px;
+        display: inline-block;
+        padding: 5px 10px;
+        float:right; 
+        text-align: right;
+      }
+      .displayAddress1 {
+        display: inline-block;
+        float:right;
+        text-align: left;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 5px;
+      }
+      .displayCity, .displayState, .displayZip, .displayAddress2 {
+        display: inline-block;
+        float:right;
+        text-align: left;
+        padding-left: 2px;
+        padding-right: 2px;
+      }
+      .displayCountry {
+        display: inline-block;
+        float:right;
+        text-align: left;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 5px;
+      }
+      .displayFirstName, .displayLastName, .displaySuffixName, .displayPhone, .displayFax, .displayEmail, .displayWebsite, .displayCenter, .displayFacilityName {
+        display: inline-block;
+        float:right;
+        text-align: left;
+        padding-left: 2px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 2px;
+      }
+
+      td {
+        font-family: Verdana;
+        font-size: 8pt;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-top-color: #888888;
+      }
+      th {
+        font-family: Verdana;
+        font-size: 10pt;
+        font-weight: normal;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: left;
+
+      }
+      .emptyDataSet {
+        border: 0px;
+        font-size: 10pt;
+      }
+      .displayTable {
+        border: 0px;
+        border-spacing: 0px;
+      }
+  </style> 

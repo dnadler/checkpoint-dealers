@@ -1,0 +1,19 @@
+.jumbotron h1, .jumbotron p {
+	color: #fff;
+	text-shadow: 3px 3px 10px #000;
+}
+.jumbotron {
+	background-image:url("http://dealer.PurinaCheckPoint.com/graphics/jumbotron.jpg");
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.deleteProducer {
+	cursor: pointer;
+}
+.indent {
+	margin-left:20px;
+}
+.bold {
+	font-weight: 700;
+}
